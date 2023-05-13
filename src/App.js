@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Homepage from "./pages/homepage.js";
+import AboutPage from "./pages/aboutpage.js";
+import Services from "./pages/services";
+import "./index.css";
+import AirTransportation from "./pages/airTransportation";
+import SeaTransportation from "./pages/seaTransportation";
+import LandTransportation from "./pages/landTransportation";
+import { Routes, Route, Link, Navlink } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage></Homepage>}></Route>
+      <Route path="/about" element={<AboutPage></AboutPage>}></Route>
+      <Route path="/services" element={<Services></Services>}></Route>
+      <Route path="/contact" element={<Services></Services>}></Route>
+      <Route
+        path="/sea-transport"
+        element={<SeaTransportation></SeaTransportation>}
+      ></Route>
+      <Route
+        path="/air-transport"
+        element={<AirTransportation></AirTransportation>}
+      ></Route>
+      <Route
+        path="/land-transport"
+        element={<LandTransportation></LandTransportation>}
+      ></Route>
+    </Routes>
   );
 }
 
