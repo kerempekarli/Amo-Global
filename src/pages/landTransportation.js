@@ -17,13 +17,15 @@ export default function LandTransportation() {
     <div>
       <Header></Header>
       <div className="relative">
-        <img alt="Uçak Resmi" className="from-slate-950" src={truckPhoto}></img>
-        <div className="absolute bottom-36 xl:block hidden max-w-lg space-y-4 left-96 text-white">
-          <div className="text-5xl font-semibold">KARA TAŞIMACILIĞI</div>
-          <div className="text-2xl">
-            Kara taşımacılığı, karayolu ağlarını kullanarak malzemelerin,
-            ürünlerin ve insanların taşınmasını sağlayan bir lojistik
-            yöntemidir.
+        <img
+          alt="Uçak Resmi"
+          className="from-slate-950 brightness-75"
+          src={truckPhoto}
+        ></img>
+        <div className="absolute  bottom-36 xl:block hidden max-w-4xl  space-y-4 left-96 text-white">
+          <div className="text-5xl font-semibold leading-tight">
+            Yolculuğunuzda güvenli adımlarla ilerleyin, kara taşımacılığında biz
+            varız
           </div>
         </div>
       </div>

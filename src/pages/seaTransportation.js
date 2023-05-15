@@ -20,10 +20,8 @@ export default function SeaTransportation() {
       <div className="relative">
         <img alt="Uçak Resmi" className="from-slate-950" src={shipPhoto}></img>
         <div className="absolute bottom-36 xl:block hidden max-w-lg space-y-4 left-96 text-white">
-          <div className="text-5xl font-semibold">DENİZ TAŞIMACILIĞI</div>
-          <div className="text-2xl">
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non
+          <div className="text-5xl font-semibold">
+            Denizlerin gücüyle taşıyoruz, güvenli ve ekonomik taşımacılık
           </div>
         </div>
       </div>

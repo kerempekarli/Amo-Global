@@ -17,16 +17,16 @@ export default function AirTransportation() {
     <div>
       <Header></Header>
       <div className="relative">
-        <img alt="Uçak Resmi" src={planePhoto}></img>
-        <div className="absolute bottom-36 max-w-lg space-y-4 left-80 text-white">
-          <div className="text-5xl">HAVA TAŞIMACILIĞI</div>
-          <div className="text-2xl">
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non
+        <img alt="Uçak Resmi" className="brightness-75" src={planePhoto}></img>
+        <div className="absolute xl:block hidden bottom-36 max-w-xl space-y-4 left-96 text-white">
+          <div className="text-5xl font-medium">
+            {" "}
+            Daha yükseğe çıkın, hızlı ve güvenilir hava taşımacılığıyla zamanı
+            yakalayın!
           </div>
         </div>
       </div>
-      <div className="max-w-[1200px] text-xl mx-auto space-y-5 mt-20">
+      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-20">
         <div>
           Hava kargosu, hava taşımacılığı yoluyla yapılan kargo taşımacılığıdır.
           Bu yöntem, hızlı ve etkili bir şekilde malzemelerin, ürünlerin ve
@@ -71,35 +71,37 @@ export default function AirTransportation() {
         </div>
       </div>
       {/* WHAT WE DO */}
-      <div className="w-[1200px]  mx-auto">
+      <div className="max-w-[1200px]  xl:mx-auto">
         <div className="w-full border-2 my-20 border-dashed"></div>
-        <div className="text-3xl font-semibold">Diğer Hizmetlerimiz</div>
+        <div className="text-3xl ml-[15%] xl:mx-0 font-semibold">
+          Diğer Hizmetlerimiz
+        </div>
       </div>
 
-      <div className="w-[1200px] flex flex-wrap justify-between mx-auto">
-        <div className="my-6">
+      <div className="max-w-[1200px] flex flex-wrap xl:justify-between mx-auto">
+        <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={depo}></img>
-          <div className="text-3xl font-medium my-2">DEPOLAMA</div>
+          <div className="text-3xl font-semibold my-2">DEPOLAMA</div>
         </div>
-        <div className="my-6">
+        <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={tahta}></img>
-          <div className="text-3xl font-medium my-2">SATIN ALMA</div>
+          <div className="text-3xl font-semibold my-2">SATIN ALMA</div>
         </div>
-        <div className="my-6">
+        <div className=" mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={containerGemisi}></img>
-          <div className="text-3xl font-medium my-2">PARSİYEL</div>
+          <div className="text-3xl font-semibold my-2">PARSİYEL</div>
         </div>
-        <div className="my-6">
+        <div className=" mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={paket}></img>
-          <div className="text-3xl font-medium my-2">PAKETLEME</div>
+          <div className="text-3xl font-semibold my-2">PAKETLEME</div>
         </div>
-        <div className="my-6">
+        <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={work}></img>
-          <div className="text-3xl font-medium my-2">PAZARLAMA</div>
+          <div className="text-3xl font-semibold my-2">PAZARLAMA</div>
         </div>
-        <div className="my-6">
+        <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={containerPlace}></img>
-          <div className="text-3xl font-medium my-2">
+          <div className="text-3xl font-semibold my-2">
             ULUSLARARASI PAZARLAMA
           </div>
         </div>
