@@ -7,7 +7,7 @@ export default function Contact() {
   //   window.scrollTo(0, 0); // Sayfayı yukarı kaydır
   // }, []);
   return (
-    <div>
+    <div className="w-screen">
       <Header></Header>
       <div className="bg-kahve">
         <div className="text-5xl pt-20 pb-5 font-semibold px-20 text-white">
@@ -17,7 +17,7 @@ export default function Contact() {
           Lojistikte profesyonel çözümler, başarıya giden yolda bizimle
           ilerleyin.
         </div>
-      </div>
+      </div>{" "}
       {/* section2 */}
       <div className="text-center max-w-5xl mx-auto lg:p-7 xl:shadow-lg mt-10 lg:-mt-7 bg-white z-10">
         <div className="mb-12">
@@ -49,11 +49,11 @@ export default function Contact() {
       {/* SECTİON 3 */}
       <div>
         {/* CONTAİNER */}
-        <div className="flex mt-20  w-screen sm:pl-12 xl:pl-[15%] flex-wrap xl:space-x-10">
+        <div className="flex mt-20 sm:pl-12  flex-wrap xl:space-x-10">
           <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752.6817914844921!2d28.954017869658873!3d41.00934451021063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab987c3f4a98b%3A0x13369231b95243b6!2zS2FyZGXFn2xlciDEsMWfIEhhbsSx!5e0!3m2!1str!2str!4v1684147654335!5m2!1str!2str"
-              className="box-border lg:w-[500px] xl:w-[600px] lg:h-[450px] w-screen sm:w-[400px] md:w-[600px] h-[400px]"
+              className="box-border lg:w-[500px] xl:ml-52 xl:w-[600px] lg:h-[450px] w-screen sm:w-[400px] md:w-[600px] h-[400px]"
               title="a"
             ></iframe>
           </div>
@@ -69,12 +69,12 @@ export default function Contact() {
           </div>
         </div>
         {/* CONTAİNER 2 */}
-        <div className="flex mt-20  w-screen  sm:pl-12 xl:pl-[15%] flex-wrap xl:space-x-10">
+        <div className="flex mt-20 sm:pl-12  flex-wrap xl:space-x-10">
           <div>
             <img
               src={Iraq}
               alt="Irak"
-              className="box-border lg:w-[500px] xl:w-[600px] w-[600px] "
+              className="box-border xl:ml-52 lg:w-[500px] xl:w-[600px] w-[600px] "
             ></img>
           </div>
           <div className="text-2xl xl:text-3xl pl-5 mt-10 xl:mt-2 space-y-7">

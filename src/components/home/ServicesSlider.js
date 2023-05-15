@@ -15,17 +15,15 @@ import tablet6 from "../../assets/Tablet6.png";
 export default function ServicesSlider() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="border-[1px] border-dashed mx-auto max-w-[1200px] my-20 bg-black"></div>
+      <div className="border-[1px] border-dashed mx-auto max-w-[1200px] my-5 bg-black"></div>
 
       {/* Hizmetlerimiz Slider */}
 
-      <div className="hidden xl:flex xl:ml-[100px] items-center xl:flex-row flex-col xl:space-y-0 space-y-6 xl:space-x-5 my-20">
-        <div className="max-w-[341px] space-y-5 text-center">
+      <div className="hidden xl:flex xl:ml-[50px] items-center xl:flex-row flex-col xl:space-y-0 space-y-6 xl:space-x-5 my-20">
+        <div className="max-w-[341px] mr-5 space-y-5 text-center">
           <div className="text-5xl">Hizmetlerimiz</div>
           <div className="text-2xl">
-            <p>
-              velit esse cillum dolore eu fugiat nulla pariatur. Sint occaecat{" "}
-            </p>
+            <p>Sınırları aşan lojistik hizmetleri ile büyük adımlar atın</p>
           </div>
           <div className="text-orange text-3xl underline font-semibold underline-offset-8">
             <Link to={"/about"}>Hakkımızda</Link>
@@ -59,7 +57,7 @@ export default function ServicesSlider() {
             </svg>
           </div>
         </div>
-        <div className="flex flex-wrap space-x-6 xl:space-x-0 space-y-4 xl:space-y-0 justify-center xl:justify-start">
+        <div className="flex flex-wrap space-x-6 xl:space-x-2 space-y-4 xl:space-y-0 justify-center xl:justify-start">
           <div className="ml-6 xl:ml-0 xl:my-0 mt-4 ">
             <img alt="depolama" src={depolama}></img>
             <div className="text-2xl font-semibold">Depolama</div>
@@ -85,6 +83,9 @@ export default function ServicesSlider() {
             <div className="text-2xl font-semibold">Parsiyel</div>
           </div>
         </div>
+      </div>
+      <div className="text-5xl font-medium my-10 block xl:hidden">
+        Hizmetlerimiz
       </div>
       <div className=" flex flex-wrap justify-center xl:hidden">
         <div className="my-3 mx-3">
