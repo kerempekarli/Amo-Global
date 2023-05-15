@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Link, Navlink } from "react-router-dom";
 export default function Footer() {
   return (
-    <div className="bg-kahve mt-20 flex flex-col sm:pl-10 md:pl-24 pb-24 pt-12 lg:flex-row justify-center text-white">
+    <div className="bg-kahve mt-20 flex flex-col sm:pl-10 md:pl-24 xl:pl-0 pb-24 pt-12 lg:flex-row justify-center text-white">
       <div className="mt-12 xl:mt-[80px] space-y-4 px-10">
         <div className="text-5xl">Bizimle iletişime geçin</div>
         <div className="text-xl">
