@@ -17,7 +17,11 @@ export default function AirTransportation() {
     <div>
       <Header></Header>
       <div className="relative">
-        <img alt="Uçak Resmi" className="brightness-75" src={planePhoto}></img>
+        <img
+          alt="Uçak Resmi"
+          className="xl:brightness-75"
+          src={planePhoto}
+        ></img>
         <div className="absolute xl:block hidden bottom-36 max-w-xl space-y-4 left-96 text-white">
           <div className="text-5xl font-medium">
             {" "}

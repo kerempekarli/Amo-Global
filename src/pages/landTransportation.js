@@ -19,7 +19,7 @@ export default function LandTransportation() {
       <div className="relative">
         <img
           alt="Uçak Resmi"
-          className="from-slate-950 brightness-75"
+          className="from-slate-950 "
           src={truckPhoto}
         ></img>
         <div className="absolute  bottom-36 xl:block hidden max-w-4xl  space-y-4 left-96 text-white">
