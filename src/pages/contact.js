@@ -7,7 +7,7 @@ export default function Contact() {
   //   window.scrollTo(0, 0); // Sayfayı yukarı kaydır
   // }, []);
   return (
-    <div className="w-screen">
+    <div className="">
       <Header></Header>
       <div className="bg-kahve">
         <div className="text-5xl pt-20 pb-5 font-semibold px-20 text-white">
