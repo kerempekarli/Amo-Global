@@ -19,7 +19,7 @@ export default function LandTransportation() {
       <div className="relative">
         <img
           alt="Uçak Resmi"
-          className="from-slate-950 "
+          className=""
           src={truckPhoto}
         ></img>
         <div className="absolute  bottom-36 xl:block hidden max-w-4xl  space-y-4 left-96 text-white">
@@ -29,7 +29,7 @@ export default function LandTransportation() {
           </div>
         </div>
       </div>
-      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-20">
+      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-5 xl:mt-20">
         <div>
           Kara kargosu, karayolu taşımacılığıyla gerçekleştirilen kargo
           taşımacılığıdır. Bu yöntem, karayollarının ağına dayanarak

@@ -30,7 +30,7 @@ export default function AirTransportation() {
           </div>
         </div>
       </div>
-      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-20">
+      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-5 xl:mt-20">
         <div>
           Hava kargosu, hava taşımacılığı yoluyla yapılan kargo taşımacılığıdır.
           Bu yöntem, hızlı ve etkili bir şekilde malzemelerin, ürünlerin ve

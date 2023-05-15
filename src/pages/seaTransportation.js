@@ -18,14 +18,14 @@ export default function SeaTransportation() {
     <div>
       <Header></Header>
       <div className="relative">
-        <img alt="Uçak Resmi" className="from-slate-950" src={shipPhoto}></img>
+        <img alt="Uçak Resmi" className="" src={shipPhoto}></img>
         <div className="absolute bottom-36 xl:block hidden max-w-lg space-y-4 left-96 text-white">
           <div className="text-5xl font-semibold">
             Denizlerin gücüyle taşıyoruz, güvenli ve ekonomik taşımacılık
           </div>
         </div>
       </div>
-      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-20">
+      <div className="max-w-[1200px] xl:leading-relaxed text-xl mx-auto px-5 lg:px-10  space-y-5 mt-5 xl:mt-20">
         <div>
           Deniz taşımacılığı, malzemelerin, eşyaların ve ürünlerin deniz yoluyla
           taşınması işlemidir. Deniz taşımacılığı, uluslararası ticarette önemli
