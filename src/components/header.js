@@ -62,9 +62,12 @@ export default function Header() {
           </div>
         </div>
         <div>
-          <button className="bg-orange text-2xl hidden xl:flex text-white py-3.5 px-5">
+          <Link
+            to={"/contact"}
+            className="bg-orange text-2xl hidden xl:flex text-white py-3.5 px-5"
+          >
             Hızlı Teklif Al
-          </button>
+          </Link>
         </div>
         <div className="block xl:hidden">
           <img
