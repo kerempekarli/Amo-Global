@@ -4,6 +4,7 @@ import Services from "./pages/services";
 import "./index.css";
 import AirTransportation from "./pages/airTransportation";
 import SeaTransportation from "./pages/seaTransportation";
+import Contact from "./pages/contact.js";
 import LandTransportation from "./pages/landTransportation";
 import { Routes, Route, Link, Navlink } from "react-router-dom";
 
@@ -13,7 +14,7 @@ function App() {
       <Route path="/" element={<Homepage></Homepage>}></Route>
       <Route path="/about" element={<AboutPage></AboutPage>}></Route>
       <Route path="/services" element={<Services></Services>}></Route>
-      <Route path="/contact" element={<Services></Services>}></Route>
+      <Route path="/contact" element={<Contact></Contact>}></Route>
       <Route
         path="/sea-transport"
         element={<SeaTransportation></SeaTransportation>}

@@ -79,27 +79,29 @@ export default function AirTransportation() {
       <div className="w-[1200px] flex flex-wrap justify-between mx-auto">
         <div className="my-6">
           <img alt="depo fotoğrafı" src={depo}></img>
-          <div className="text-2xl my-2">DEPOLAMA</div>
+          <div className="text-3xl font-medium my-2">DEPOLAMA</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={tahta}></img>
-          <div className="text-2xl my-2">SATIN ALMA</div>
+          <div className="text-3xl font-medium my-2">SATIN ALMA</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={containerGemisi}></img>
-          <div className="text-2xl my-2">PARSİYEL</div>
+          <div className="text-3xl font-medium my-2">PARSİYEL</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={paket}></img>
-          <div className="text-2xl my-2">PAKETLEME</div>
+          <div className="text-3xl font-medium my-2">PAKETLEME</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={work}></img>
-          <div className="text-2xl my-2">PAZARLAMA</div>
+          <div className="text-3xl font-medium my-2">PAZARLAMA</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={containerPlace}></img>
-          <div className="text-2xl my-2">ULUSLARARASI PAZARLAMA</div>
+          <div className="text-3xl font-medium my-2">
+            ULUSLARARASI PAZARLAMA
+          </div>
         </div>
       </div>
       <Footer></Footer>

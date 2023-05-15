@@ -24,27 +24,29 @@ export default function ourServices() {
       <div className="hidden xl:flex max-w-[1200px] flex-wrap justify-between mx-auto">
         <div className="my-6">
           <img alt="depo fotoğrafı" src={depo}></img>
-          <div className="text-2xl my-2">DEPOLAMA</div>
+          <div className="text-3xl font-medium my-2">DEPOLAMA</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={tahta}></img>
-          <div className="text-2xl my-2">SATIN ALMA</div>
+          <div className="text-3xl font-medium my-2">SATIN ALMA</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={containerGemisi}></img>
-          <div className="text-2xl my-2">PARSİYEL</div>
+          <div className="text-3xl font-medium my-2">PARSİYEL</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={paket}></img>
-          <div className="text-2xl my-2">PAKETLEME</div>
+          <div className="text-3xl font-medium my-2">PAKETLEME</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={work}></img>
-          <div className="text-2xl my-2">PAZARLAMA</div>
+          <div className="text-3xl font-medium my-2">PAZARLAMA</div>
         </div>
         <div className="my-6">
           <img alt="depo fotoğrafı" src={containerPlace}></img>
-          <div className="text-2xl my-2">ULUSLARARASI PAZARLAMA</div>
+          <div className="text-3xl font-medium my-2">
+            ULUSLARARASI PAZARLAMA
+          </div>
         </div>
       </div>
       <div className=" flex flex-wrap justify-center xl:hidden">
@@ -53,23 +55,25 @@ export default function ourServices() {
           <img alt="Proje fotoğrafı" src={tablet1}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">Satın Alma</div>
           <img alt="Proje fotoğrafı" src={tablet2}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">Parsiyel</div>
           <img alt="Proje fotoğrafı" src={tablet3}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">Paketleme</div>
           <img alt="Proje fotoğrafı" src={tablet4}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>{" "}
+          <div className="text-2xl font-medium mb-2">Pazarlama</div>{" "}
           <img alt="Proje fotoğrafı" src={tablet5}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">
+            Uluslararası pazarlama
+          </div>
           <img alt="Proje fotoğrafı" src={tablet6}></img>
         </div>
       </div>

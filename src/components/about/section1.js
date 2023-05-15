@@ -26,7 +26,7 @@ export default function section1() {
         <div className="text-xl mt-5">
           Geniş bir lojistik ağına sahibiz ve güçlü iş ortaklıkları kurarak
           küresel ölçekte hizmet verebiliyoruz. Lojistik sektöründeki
-          gelişmeleri yakından takip ediyor ve sürekli olarak kendimizi
+          gelişmeleri yakından takip ediyor ve sürekli olarak kendimizi  
           yeniliyoruz. Teknolojiyi etkin bir şekilde kullanarak
           operasyonlarımızı optimize ediyor ve müşterilerimize daha iyi hizmet
           sunmayı amaçlıyoruz.

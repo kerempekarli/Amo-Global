@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import buying from "../../assets/prosüdür.png";
 import depolama from "../../assets/alım.png";
 import proje from "../../assets/proje.png";
@@ -28,7 +28,8 @@ export default function ServicesSlider() {
             </p>
           </div>
           <div className="text-orange text-3xl underline font-semibold underline-offset-8">
-            Hakkımızda <span className="text-4xl">+</span>
+            <Link to={"/about"}>Hakkımızda</Link>
+            <span className="text-4xl">+</span>
           </div>
           <div className="hidden justify-center space-x-32 pt-5">
             <svg
@@ -87,23 +88,25 @@ export default function ServicesSlider() {
       </div>
       <div className=" flex flex-wrap justify-center xl:hidden">
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">
+            Uluslararası Pazarlama
+          </div>
           <img alt="Proje fotoğrafı" src={tablet1}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">Pazarlama</div>
           <img alt="Proje fotoğrafı" src={tablet2}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">Paketleme</div>
           <img alt="Proje fotoğrafı" src={tablet3}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>
+          <div className="text-2xl font-medium mb-2">Parsiyel</div>
           <img alt="Proje fotoğrafı" src={tablet4}></img>
         </div>
         <div className="my-3 mx-3">
-          <div className="text-2xl font-medium mb-2">Depolama</div>{" "}
+          <div className="text-2xl font-medium mb-2">Satın Alma</div>{" "}
           <img alt="Proje fotoğrafı" src={tablet5}></img>
         </div>
         <div className="my-3 mx-3">
