@@ -17,11 +17,7 @@ export default function LandTransportation() {
     <div>
       <Header></Header>
       <div className="relative">
-        <img
-          alt="Uçak Resmi"
-          className=""
-          src={truckPhoto}
-        ></img>
+        <img alt="Uçak Resmi" className="" src={truckPhoto}></img>
         <div className="absolute  bottom-36 xl:block hidden max-w-4xl  space-y-4 left-96 text-white">
           <div className="text-5xl font-semibold leading-tight">
             Yolculuğunuzda güvenli adımlarla ilerleyin, kara taşımacılığında biz
@@ -81,27 +77,27 @@ export default function LandTransportation() {
       <div className="max-w-[1200px] flex flex-wrap xl:justify-between mx-auto">
         <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={depo}></img>
-          <div className="text-3xl font-semibold my-2">DEPOLAMA</div>
+          <div className="text-3xl font-semibold pl-2  my-2">DEPOLAMA</div>
         </div>
         <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={tahta}></img>
-          <div className="text-3xl font-semibold my-2">SATIN ALMA</div>
+          <div className="text-3xl font-semibold pl-2  my-2">SATIN ALMA</div>
         </div>
         <div className=" mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={containerGemisi}></img>
-          <div className="text-3xl font-semibold my-2">PARSİYEL</div>
+          <div className="text-3xl font-semibold pl-2  my-2">PARSİYEL</div>
         </div>
         <div className=" mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={paket}></img>
-          <div className="text-3xl font-semibold my-2">PAKETLEME</div>
+          <div className="text-3xl font-semibold pl-2  my-2">PAKETLEME</div>
         </div>
         <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={work}></img>
-          <div className="text-3xl font-semibold my-2">PAZARLAMA</div>
+          <div className="text-3xl font-semibold pl-2  my-2">PAZARLAMA</div>
         </div>
         <div className="mx-auto xl:mx-0 my-6">
           <img alt="depo fotoğrafı" src={containerPlace}></img>
-          <div className="text-3xl font-semibold my-2">
+          <div className="text-3xl font-semibold pl-2  my-2">
             ULUSLARARASI PAZARLAMA
           </div>
         </div>
