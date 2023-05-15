@@ -3,9 +3,9 @@ import Header from "../components/header";
 import Footer from "../components/Footer";
 import Iraq from "../assets/Rectangle 95.png";
 export default function Contact() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0); // Sayfayı yukarı kaydır
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Sayfayı yukarı kaydır
+  }, []);
   return (
     <div className="">
       <Header></Header>
