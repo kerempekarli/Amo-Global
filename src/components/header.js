@@ -79,7 +79,7 @@ export default function Header() {
         </div>
       </div>
       <div
-        className={`absolute top-28 lg:top-24 space-y-10 left-0 right-60 text-center w-screen p-5 py-20 lg:p-10  z-10 bg-white text-4xl ${
+        className={`absolute top-32 lg:top-24 space-y-10 left-0 right-60 text-center w-screen p-5 py-20 lg:p-10  z-10 bg-white text-4xl ${
           isOpen ? "hidden" : ""
         }`}
       >
