@@ -60,8 +60,7 @@ export default function Contact() {
           <div className="text-2xl xl:text-3xl font-normal pl-5  mt-10 xl:mt-2 space-y-7">
             <div className="text-4xl font-medium">Merkez</div>
             <div>
-              Mesih Paşa Mah. Ordu Cad. No 105 <br></br>Kardeşler İş Hanı Kat 4
-              Daire No 23
+            Mesihpaşa mahallesi Ceylan sokak  <br></br> Durgunlar işhanı no: 10 iç kapı no: 201
             </div>
             <div>İstanbul/Fatih</div>
             <div>Phone/Fax</div>
